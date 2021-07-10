@@ -1,4 +1,8 @@
 
+//print Fizz     >> num%3
+//print Buzz     >> num%5
+//print FizzBuzz >> num%15
+
 for(i=1; i<=100; i++)
   {
   
