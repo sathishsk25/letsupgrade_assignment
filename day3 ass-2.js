@@ -1,3 +1,5 @@
+//palidrom
+
 let str = "madam knows hannah well "
 let str1 = "", str2 = ""
   for (t of str) {
