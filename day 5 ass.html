@@ -1,0 +1,76 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Lucky Name</title>
+  </head>
+  <body>
+    <center>
+      <div>
+        <label>YOUR LUCKY NAME</label>
+        <input
+          type="text"
+          placeholder="Enter Your Name"
+          id="input"
+          class="name"
+        />
+        <button onclick="on_click()">Click Here</button>
+      </div>
+    </center>
+
+    <!-- css -->
+
+    <style>
+      body {
+        align-items: center;
+        background-color: #25211f;
+        margin: 10rem;
+      }
+
+      div {
+        position: relative;
+        height: 25rem;
+        width: 25rem;
+        background: #160f3a;
+        border-radius: 10px;
+        box-sizing: border-box;
+        padding: 5rem;
+        opacity: 0.8;
+      }
+      label {
+        margin: 10px;
+        font-weight: 800;
+        font-size: 1.8rem;
+        color: white;
+      }
+      input {
+        background: #ecf0f3;
+        padding: 10px;
+        height: 50px;
+        font-size: 1rem;
+        border-radius: 10px;
+        text-align: left;
+        margin-top: 2rem;
+      }
+      button {
+        margin-top: 20px;
+        background: #ecf0f3;
+        height: 2rem;
+        border-radius: 10px;
+        cursor: pointer;
+        font-weight: 800;
+      }
+    </style>
+
+    <!-- script -->
+
+    <script>
+      function on_click() {
+        var text = document.querySelector(".name").value;
+        var t = "Hey, your name is ";
+        var z = t + text;
+        alert(z);
+      }
+    </script>
+  </body>
+</html>
